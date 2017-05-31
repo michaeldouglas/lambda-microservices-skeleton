@@ -1,10 +1,11 @@
 {
-  "name": "lambda-tab-media",
+  "name": "some-function",
   "version": "1.0.0",
-  "description": "Lambda Function for TabMidia",
+  "description": "Lambda Function for Atitude",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-unit": "mocha --opts test/unit/mocha.opts test/unit/**/*.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,13 +13,14 @@
     "async": "^2.4.0",
     "aws-sdk": "^2.51.0",
     "del": "^2.2.2",
-    "lambduh-transform-s3-event": "^1.0.1",
-    "lambduh-validate": "^1.1.0",
     "moment": "^2.18.1",
     "node-aws-lambda": "^0.1.8",
-    "q": "^1.5.0"
+    "q": "^1.5.0",
+    "testdouble": "^2.1.2"
   },
   "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
     "chai": "^3.5.0",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",
