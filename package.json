@@ -1,7 +1,7 @@
 {
   "name": "some-function",
   "version": "1.0.0",
-  "description": "Lambda Function for Atitude",
+  "description": "Lambda Function for Developer",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
